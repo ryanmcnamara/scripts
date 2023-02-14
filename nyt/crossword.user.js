@@ -9,4 +9,7 @@
 // ==/UserScript==
 // https://gist.github.com/samsungstark/7440c802b89f9ed413631b84cfb06cfe/edit
 
-document.getElementById("boardTitle").remove()
+setTimeout(function(){
+    document.getElementById("boardTitle").remove()
+    document.getElementById("js-global-nav").remove()
+},2000)
