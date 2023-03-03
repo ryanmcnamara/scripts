@@ -12,4 +12,5 @@
 setTimeout(function(){
     document.getElementById("boardTitle").remove()
     document.getElementById("js-global-nav").remove()
+    document.getElementsByClassName("top-sale-banner")[0].remove()
 },2000)
